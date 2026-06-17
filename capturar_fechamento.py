@@ -12,7 +12,7 @@ REGION    = "eu"
 BOOKMAKER = "pinnacle"
 BASE_URL  = "https://api.the-odds-api.com/v4"
 
-LEAD_MIN  = 30     # captura quem começa nos próximos LEAD_MIN minutos
+LEAD_MIN  = 90    # captura quem começa nos próximos 90 min (folga p/ o cron irregular do GitHub)
 GRACE_MIN = 10    # tolerância p/ atraso do cron (cobre lag tipico do Actions)
 
 WATCHLIST = "watchlist.csv"
